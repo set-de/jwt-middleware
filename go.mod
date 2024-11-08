@@ -1,4 +1,4 @@
-module github.com/Brainnwave/jwt-middleware
+module github.com/agilezebra/jwt-middleware
 
 go 1.21
 

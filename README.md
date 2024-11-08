@@ -1,6 +1,6 @@
-[![Build](https://github.com/Brainnwave/jwt-middleware/actions/workflows/build.yml/badge.svg)](https://github.com/Brainnwave/jwt-middleware/actions/workflows/build.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Brainnwave_jwt-middleware&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Brainnwave_jwt-middleware)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Brainnwave_jwt-middleware&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Brainnwave_jwt-middleware)
+[![Build](https://github.com/agilezebra/jwt-middleware/actions/workflows/build.yml/badge.svg)](https://github.com/agilezebra/jwt-middleware/actions/workflows/build.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=agilezebra_jwt-middleware&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=agilezebra_jwt-middleware)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=agilezebra_jwt-middleware&metric=coverage)](https://sonarcloud.io/summary/new_code?id=agilezebra_jwt-middleware)
 
 # Dynamic JWT Validation Middleware
 
@@ -18,7 +18,7 @@ This is a middleware plugin for [Traefik](https://github.com/containous/traefik)
 experimental:
   plugins:
     jwt:
-      moduleName: github.com/Brainnwave/jwt-middleware
+      moduleName: github.com/agilezebra/jwt-middleware
       version: v1.2.1
 ```
 1b. or with command-line options:
@@ -26,7 +26,7 @@ experimental:
 ```yaml
 command:
   ...
-  - "--experimental.plugins.jwt.modulename=github.com/Brainnwave/jwt-middleware"
+  - "--experimental.plugins.jwt.modulename=github.com/agilezebra/jwt-middleware"
   - "--experimental.plugins.jwt.version=v1.2.1"
 ```
 
