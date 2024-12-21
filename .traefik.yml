@@ -1,7 +1,7 @@
 displayName: Dynamic JWT Validation Middleware
 type: middleware
-import: github.com/agilezebra/jwt-middleware
-summary: Validates JWTs for access control. Fetches keys dynamically from whitelisted issuer JWKS as needed. Supports flexible claim checks with optional wildcards.
+import: github.com/set-de/jwt-middleware
+summary: Validates JWTs for access control. Fetches keys dynamically from whitelisted issuer JWKS as needed. Supports flexible claim checks with optional wildcards. SET GmbH fork.
 iconPath: jwt.png
 testData:
   issuers:
