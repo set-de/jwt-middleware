@@ -1,4 +1,4 @@
-displayName: Dynamic JWT Validation Middleware
+displayName: Dynamic JWT Validation Middleware SET GmbH
 type: middleware
 import: github.com/set-de/jwt-middleware
 summary: Validates JWTs for access control. Fetches keys dynamically from whitelisted issuer JWKS as needed. Supports flexible claim checks with optional wildcards. SET GmbH fork.
