@@ -428,7 +428,7 @@ func (plugin *JWTPlugin) getKey(token *jwt.Token) (interface{}, error) {
 
 				if looped {
 					if fetched {
-						log.Printf("key %s: fetched and no match", kid)
+						fmt.Printf("key %s: fetched and no match", kid)
 					}
 					break
 				}
@@ -502,7 +502,7 @@ func (plugin *JWTPlugin) fetchKeys(issuer string) error {
 	if err != nil {
 		return err
 	}
-	log.Printf("fetched openid-configuration from url:%s", configURL)
+	fmt.Printf("fetched openid-configuration from url:%s", configURL)
 
 	url := config.JWKSURI
 	jwks, err := FetchJWKS(url, plugin.clientForURL(url))
@@ -510,7 +510,7 @@ func (plugin *JWTPlugin) fetchKeys(issuer string) error {
 		return err
 	}
 	for keyID, key := range jwks {
-		log.Printf("fetched key:%s from url:%s", keyID, url)
+		fmt.Printf("fetched key:%s from url:%s", keyID, url)
 		plugin.keys[keyID] = key
 	}
 
@@ -534,7 +534,7 @@ func (plugin *JWTPlugin) isIssuedKey(keyID string) bool {
 func (plugin *JWTPlugin) purgeKeys() {
 	for keyID := range plugin.keys {
 		if !plugin.isIssuedKey(keyID) {
-			log.Printf("key:%s dropped", keyID)
+			fmt.Printf("key:%s dropped", keyID)
 			delete(plugin.keys, keyID)
 		}
 	}
