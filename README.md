@@ -4,6 +4,13 @@
 
 # Dynamic JWT Validation Middleware
 
+## Preface
+
+This is the work of Agilezebra an copied from https://github.com/agilezebra/jwt-middleware mainly for security reasons 
+to be independent of other resources.
+
+## What's it?
+
 This is a middleware plugin for [Traefik](https://github.com/containous/traefik) with the following features:
 * Validation of JSON Web Tokens in cookies, headers, and/or query string parameters for access control.
 * Dynamic lookup of public keys from the well-known OpenID configuration of whitelisted issuers.
