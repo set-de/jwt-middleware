@@ -1,6 +1,4 @@
 [![Build](https://github.com/set-de/jwt-middleware/actions/workflows/build.yml/badge.svg)](https://github.com/set-de/jwt-middleware/actions/workflows/build.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=set-de_jwt-middleware&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=set-de_jwt-middleware)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=set-de_jwt-middleware&metric=coverage)](https://sonarcloud.io/summary/new_code?id=set-de_jwt-middleware)
 
 # Dynamic JWT Validation Middleware
 
