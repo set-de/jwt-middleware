@@ -4,7 +4,7 @@
 
 ## Preface
 
-This is the work of Agilezebra an copied from https://github.com/agilezebra/jwt-middleware mainly for security reasons 
+This is the work of Agilezebra and copied from https://github.com/agilezebra/jwt-middleware mainly for security reasons 
 to be independent of other resources.
 
 ## What's it?
